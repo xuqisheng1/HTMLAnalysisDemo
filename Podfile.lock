@@ -1,0 +1,26 @@
+PODS:
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - TFHpple (2.0.0)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - SDWebImage (~> 3.7.3)
+  - TFHpple (~> 2.0.0)
+  - YYText
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+    - TFHpple
+    - YYText
+
+SPEC CHECKSUMS:
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  TFHpple: a916fe0799eb30aa29b2670d14d5868cdd3a5b81
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 0bc620c2801abb5f8fdcfce21bd735deb85c8a2d
+
+COCOAPODS: 1.5.3

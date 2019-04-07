@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132E4EA644DA28E5635D64BE /* libPods-HTMLAnalysisDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D93854973EC1570474240F65 /* libPods-HTMLAnalysisDemo.a */; };
 		F80539392243A24F00AA7312 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F80539382243A24F00AA7312 /* AppDelegate.m */; };
 		F805393C2243A24F00AA7312 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F805393B2243A24F00AA7312 /* ViewController.m */; };
 		F805393F2243A24F00AA7312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F805393D2243A24F00AA7312 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		F80539472243A25100AA7312 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F80539462243A25100AA7312 /* main.m */; };
 		F80539512243A25100AA7312 /* HTMLAnalysisDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F80539502243A25100AA7312 /* HTMLAnalysisDemoTests.m */; };
 		F805395C2243A25100AA7312 /* HTMLAnalysisDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F805395B2243A25100AA7312 /* HTMLAnalysisDemoUITests.m */; };
+		F80539752248E98200AA7312 /* HTMLAnalysisHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F80539742248E98200AA7312 /* HTMLAnalysisHelper.m */; };
+		F80539782248E99B00AA7312 /* AttributedStrModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F80539772248E99B00AA7312 /* AttributedStrModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FBAFD79E963563407AD2713 /* Pods-HTMLAnalysisDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMLAnalysisDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTMLAnalysisDemo/Pods-HTMLAnalysisDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		68BCA25F1A491A5B9699AD06 /* Pods-HTMLAnalysisDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMLAnalysisDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTMLAnalysisDemo/Pods-HTMLAnalysisDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D93854973EC1570474240F65 /* libPods-HTMLAnalysisDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HTMLAnalysisDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80539342243A24F00AA7312 /* HTMLAnalysisDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTMLAnalysisDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80539372243A24F00AA7312 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F80539382243A24F00AA7312 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,10 @@
 		F80539572243A25100AA7312 /* HTMLAnalysisDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTMLAnalysisDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F805395B2243A25100AA7312 /* HTMLAnalysisDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLAnalysisDemoUITests.m; sourceTree = "<group>"; };
 		F805395D2243A25100AA7312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80539732248E98200AA7312 /* HTMLAnalysisHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMLAnalysisHelper.h; sourceTree = "<group>"; };
+		F80539742248E98200AA7312 /* HTMLAnalysisHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLAnalysisHelper.m; sourceTree = "<group>"; };
+		F80539762248E99B00AA7312 /* AttributedStrModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributedStrModel.h; sourceTree = "<group>"; };
+		F80539772248E99B00AA7312 /* AttributedStrModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributedStrModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132E4EA644DA28E5635D64BE /* libPods-HTMLAnalysisDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B89BF132EF5C6BE5C1A0CEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D93854973EC1570474240F65 /* libPods-HTMLAnalysisDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3E2105323BF28FAAD5AB3F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FBAFD79E963563407AD2713 /* Pods-HTMLAnalysisDemo.debug.xcconfig */,
+				68BCA25F1A491A5B9699AD06 /* Pods-HTMLAnalysisDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F805392B2243A24F00AA7312 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				F805394F2243A25100AA7312 /* HTMLAnalysisDemoTests */,
 				F805395A2243A25100AA7312 /* HTMLAnalysisDemoUITests */,
 				F80539352243A24F00AA7312 /* Products */,
+				F3E2105323BF28FAAD5AB3F0 /* Pods */,
+				2B89BF132EF5C6BE5C1A0CEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +131,7 @@
 		F80539362243A24F00AA7312 /* HTMLAnalysisDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F80539722248E95100AA7312 /* HTMLAnalysisHelper */,
 				F80539372243A24F00AA7312 /* AppDelegate.h */,
 				F80539382243A24F00AA7312 /* AppDelegate.m */,
 				F805393A2243A24F00AA7312 /* ViewController.h */,
@@ -132,6 +163,17 @@
 			path = HTMLAnalysisDemoUITests;
 			sourceTree = "<group>";
 		};
+		F80539722248E95100AA7312 /* HTMLAnalysisHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F80539732248E98200AA7312 /* HTMLAnalysisHelper.h */,
+				F80539742248E98200AA7312 /* HTMLAnalysisHelper.m */,
+				F80539762248E99B00AA7312 /* AttributedStrModel.h */,
+				F80539772248E99B00AA7312 /* AttributedStrModel.m */,
+			);
+			path = HTMLAnalysisHelper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F80539602243A25100AA7312 /* Build configuration list for PBXNativeTarget "HTMLAnalysisDemo" */;
 			buildPhases = (
+				5742B833F8254957FEA25335 /* [CP] Check Pods Manifest.lock */,
 				F80539302243A24F00AA7312 /* Sources */,
 				F80539312243A24F00AA7312 /* Frameworks */,
 				F80539322243A24F00AA7312 /* Resources */,
@@ -257,14 +300,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5742B833F8254957FEA25335 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HTMLAnalysisDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F80539302243A24F00AA7312 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80539752248E98200AA7312 /* HTMLAnalysisHelper.m in Sources */,
 				F805393C2243A24F00AA7312 /* ViewController.m in Sources */,
 				F80539472243A25100AA7312 /* main.m in Sources */,
 				F80539392243A24F00AA7312 /* AppDelegate.m in Sources */,
+				F80539782248E99B00AA7312 /* AttributedStrModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +503,13 @@
 		};
 		F80539612243A25100AA7312 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FBAFD79E963563407AD2713 /* Pods-HTMLAnalysisDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QKE395ZLK;
 				INFOPLIST_FILE = HTMLAnalysisDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +522,13 @@
 		};
 		F80539622243A25100AA7312 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BCA25F1A491A5B9699AD06 /* Pods-HTMLAnalysisDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QKE395ZLK;
 				INFOPLIST_FILE = HTMLAnalysisDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
